@@ -6,21 +6,21 @@ import flag from '../assets/indian-flag.png'
 import {ShoppingCart} from 'lucide-react'
 const Header = () => {
   return (
-    <header className='bg-[rgb(19,25,33)] text-white h-18 w-screen flex '>
-        <div className='h-11 w-42'>
+    <header className='bg-[rgb(19,25,33)] w-full text-white h-18  flex justify-between '>
+        <div className='h-11 w-24 sm:w-32 '>
             <img src={logo} alt="" />
         </div>
 
-        <div className='mt-5  flex flex-col gap-0.1'>
+        <div className='mt-3 gap-0  flex flex-col justify-around '>
           <p className='text-[10px] ml-5 '>Delivering to Pune 411001</p>
-          <div className='flex'>
+          <div className='flex mb-6'>
             <MapPin size={20} />
             <h2>Update Location</h2>
           </div>
         </div>
 
-        <div className='flex justify-center m-5  hover:border-orange-300  '>
-          <select class='All' className='bg-[rgb(230,230,230)]  hover:bg-grey-700 h-10 w-10 text-black rounded-s-lg flex justify-center scroll-auto  ' >
+        <div className='flex justify-around m-5  hover:border-orange-300  '>
+          <select class='All' className='bg-[rgb(230,230,230)]  hover:bg-grey-700 h-10 w-10   text-black rounded-s-lg flex justify-center scroll-auto  ' >
             <option value="All">All</option>
             <option value="All">All Categories</option>
             <option value="All">Alexa Skills</option>
@@ -36,7 +36,7 @@ const Header = () => {
             <option value="All">Books</option>
             <option value="All">Car & Motorbike</option>
           </select>
-          <input type="text"  placeholder='Search Amazon.in' className='bg-amber-50 h-10 w-135  text-grey border-0 hover:border-yellow-500 ' />
+          <input type="text"  placeholder='Search Amazon.in' className='bg-amber-50 h-10 w-dvh  text-grey border-0 hover:border-yellow-500 ' />
           <div className='flex justify-center rounded-e-lg w-10 h-10 bg-[rgb(254,189,105)]'><Search className='mt-2 text-black  '/></div>
         </div>
 
@@ -47,8 +47,8 @@ const Header = () => {
         </select>
         </div>
 
-    <div className='flex flex-col gap-0 ml-5'>
-      <p className='mt-3 gap-0'>Hello, sign in</p>
+    <div className='flex flex-col  ml-5'>
+      <p className='mt-3 '>Hello, sign in</p>
       <select className='font-bold' name="" id="">
         <option value="" className='font-bold' >Account & List </option>
       </select>
@@ -59,8 +59,8 @@ const Header = () => {
       <h2 className='font-bold'>& Orders </h2>
     </div>
 
-    <div className=' flex mt-4 ml-3'>
-      <ShoppingCart className='font-light' size={40} /><div className='font-medium mt-4'>Cart</div>
+    <div className=' flex mt-4 ml-5 mr-5'>
+      <ShoppingCart className='font-light' size={40} /><div className='font-medium mt-4 '>Cart</div>
     </div>
 
     </header>
