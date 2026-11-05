@@ -4,40 +4,35 @@ About the Project
 
 A responsive Amazon-inspired e-commerce website developed using React.js and Tailwind CSS. The project aims to recreate the user interface and shopping experience of Amazon.
 
-Technologies Used
-React.js
+Technologies Used <br>
+React.js <br>
+JavaScript <br>
+Tailwind CSS <br>
+HTML5 <br>
+CSS3 <br>
+React Icons / Lucide React <br>
 
-JavaScript
-Tailwind CSS
-HTML5
-CSS3
-React Icons / Lucide React
+Features <br>
+Responsive navigation bar <br>
+Product categories <br>
+Search bar UI <br>
+Shopping cart UI <br>
+Promotional banners <br>
+Product listing <br>
+Installation <br>
 
-Features
-Responsive navigation bar
-Product categories
-Search bar UI
-Shopping cart UI
-Promotional banners
-Product listing
-Installation
+Clone the repository: git clone https://github.com/Sandesh-9890/Amazon-clone.git <br>
+Navigate to the project folder: cd amazon-clone <br>
 
-Clone the repository:
-git clone YOUR_GITHUB_REPOSITORY_URL
-Navigate to the project folder:
-cd amazon-clone
+Install dependencies: npm install <br>
+Start the development server:npm run dev <br>
+ 
+Future Improvements <br>
+User authentication <br>
+Add to cart functionality <br>
+Product search and filtering <br>
+Payment integration <br>
+Backend integration <br>
 
-Install dependencies:
-npm install
-Start the development server:
-npm run dev
-
-Future Improvements
-User authentication
-Add to cart functionality
-Product search and filtering
-Payment integration
-Backend integration
-
-Author
-Sandesh Namdev Rasal | React.js Developer
+Author <br>
+Sandesh Namdev Rasal | React.js Developer <br>
