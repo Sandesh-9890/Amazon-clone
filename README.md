@@ -6,6 +6,7 @@ A responsive Amazon-inspired e-commerce website developed using React.js and Tai
 
 Technologies Used
 React.js
+
 JavaScript
 Tailwind CSS
 HTML5
