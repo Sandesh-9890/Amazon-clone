@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         <div className='flex justify-around m-5  hover:border-orange-300  '>
-          <select class='All' className='bg-[rgb(230,230,230)]  hover:bg-grey-700 h-10 w-10   text-black rounded-s-lg flex justify-center scroll-auto  ' >
+          <select  className='bg-[rgb(230,230,230)]  hover:bg-grey-700 h-10 w-10   text-black rounded-s-lg flex justify-center scroll-auto  ' >
             <option value="All">All</option>
             <option value="All">All Categories</option>
             <option value="All">Alexa Skills</option>
